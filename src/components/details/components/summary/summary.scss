@@ -1,0 +1,17 @@
+$prefix: summary;
+
+.#{$prefix} {
+  padding: 24px 0 36px 0;
+
+  &__title {
+    font-size: 20px;
+    line-height: 28px;
+
+    margin-bottom: 14px;
+  }
+
+  &__p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}

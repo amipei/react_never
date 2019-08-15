@@ -1,36 +1,61 @@
 {
-  "name": "reast_never",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@types/jest": "24.0.17",
-    "@types/node": "12.7.1",
-    "@types/react": "16.9.1",
-    "@types/react-dom": "16.8.5",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "react-scripts": "3.1.0",
-    "typescript": "3.5.3"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+	"name": "reast_never",
+	"version": "0.1.0",
+	"private": true,
+	"homepage": "https://amipei.github.io/react_never",
+	"dependencies": {
+		"classnames": "^2.2.6",
+		"connected-react-router": "^6.5.2",
+		"fetch-jsonp": "^1.1.3",
+		"lodash.debounce": "^4.0.8",
+		"node-sass": "^4.12.0",
+		"react": "^16.9.0",
+		"react-dom": "^16.9.0",
+		"react-icons": "^3.7.0",
+		"react-redux": "^7.1.0",
+		"react-router-dom": "^5.0.1",
+		"react-scripts": "3.1.0",
+		"redux-thunk": "^2.3.0",
+		"reselect": "^4.0.0",
+		"typescript": "3.5.3"
+	},
+	"devDependencies": {
+		"@types/jest": "24.0.17",
+		"@types/node": "12.7.1",
+		"@types/react": "16.9.1",
+		"@types/react-dom": "16.8.5",
+		"@types/react-redux": "^7.1.1",
+		"@types/react-router-dom": "^4.3.4",
+		"@typescript-eslint/eslint-plugin": "^1.13.0",
+		"@typescript-eslint/parser": "^1.13.0",
+		"eslint": "^6.1.0",
+		"eslint-config-airbnb": "^18.0.0",
+		"eslint-plugin-import": "^2.18.2",
+		"eslint-plugin-jsx-a11y": "^6.2.3",
+		"eslint-plugin-react": "^7.14.3",
+		"gh-pages": "^2.1.1"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build"
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	}
 }

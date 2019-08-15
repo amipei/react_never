@@ -1,0 +1,22 @@
+$prefix: header;
+
+.#{$prefix} {
+  display: flex;
+  align-items: center;
+
+  padding: 10px 0 8px 0;
+  height: 56px;
+
+  color: #000;
+
+  &__title {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  &__extra {
+    display: flex;
+    margin-left: auto;
+    font-size: 14px;
+  }
+}

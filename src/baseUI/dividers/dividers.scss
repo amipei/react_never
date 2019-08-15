@@ -1,0 +1,14 @@
+.dividers {
+  height: 1px;
+  background-color: #000;
+
+  &--shrink {
+    transform: scaleY(0.5);
+  }
+  @media (-webkit-min-device-pixel-ratio: 2) {
+    transform: scaleY(0.5);
+  }
+  @media (-webkit-min-device-pixel-ratio: 3) {
+    transform: scaleY(0.3333333);
+  }
+}

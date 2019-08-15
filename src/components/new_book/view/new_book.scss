@@ -1,0 +1,43 @@
+$prefix: new-book;
+
+.#{$prefix} {
+  &__item {
+    flex: 1 1 33.333333%;
+    padding: 0 8px;
+    height: 57vw;
+    margin-top: 16px;
+    overflow: hidden;
+  }
+  &__img-wrap {
+    position: relative;
+    padding-bottom: 154%;
+    height: 0;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  &__img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  &__title {
+    font-size: 14px;
+    line-height: 22px;
+    overflow: hidden;
+    /*文本不会换行*/
+    white-space: nowrap;
+    /*当文本溢出包含元素时，以省略号表示超出的文本*/
+    text-overflow: ellipsis;
+  }
+  &__author {
+    font-size: 12px;
+    line-height: 20px;
+    color: rgba(#000, 0.45);
+    overflow: hidden;
+    /*文本不会换行*/
+    white-space: nowrap;
+    /*当文本溢出包含元素时，以省略号表示超出的文本*/
+    text-overflow: ellipsis;
+  }
+}

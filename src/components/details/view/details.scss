@@ -1,0 +1,68 @@
+$prefix: details;
+
+.details {
+  padding: 0 16px;
+
+  &__nav {
+    height: 56px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__link {
+    font-size: 24px;
+    padding: 12px;
+    margin-left: -12px;
+  }
+
+  &__info {
+    display: flex;
+    padding-bottom: 32px;
+    margin-top: 12px;
+  }
+  &__img-wrap {
+    flex: none;
+    width: 108px; //1.4814
+    height: 160px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  &__img {
+    width: 100%;
+    height: 100%;
+  }
+
+  &__description {
+    display: flex;
+    flex-direction: column;
+    margin-left: 18px;
+    overflow: hidden;
+  }
+
+  &__title {
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 16px;
+  }
+
+  &__author {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 8px;
+  }
+
+  &__like {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+  }
+
+  &__author-intro {
+    margin-top: 8px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}
+

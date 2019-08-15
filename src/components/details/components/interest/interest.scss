@@ -1,0 +1,31 @@
+$prefix: interest;
+
+.#{$prefix} {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 64px;
+
+  &__item {
+    display: flex;
+    align-items: center;
+
+    height: 48px;
+    padding: 6px;
+  }
+  &__item:first-child {
+    margin-left: -6px;
+  }
+  &__item:last-child {
+    margin-right: -8px;
+  }
+
+  &__icon {
+    display: inline-block;
+    line-height: 0;
+    font-size: 24px;
+    margin-right: 8px;
+  }
+}
+
