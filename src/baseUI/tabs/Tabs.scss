@@ -1,0 +1,51 @@
+$prefix: m-tabs;
+
+.#{$prefix} {
+  &__nav {
+    background-color: #ffffff;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    height: 56px;
+  }
+  &__bar {
+    display: flex;
+    max-width: 504px;
+    height: inherit;
+    margin: 0 auto;
+  }
+  &__tab {
+    max-width: 168px;
+    min-width: 80px;
+    height: inherit;
+    padding: 8px 12px 12px;
+
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #757575;
+  }
+  &__tab--active {
+    color: #000000;
+  }
+  &__icon {
+    font-size: 24px;
+    display: inline-block;
+    line-height: 0;
+  }
+  &__title {
+    font-size: 12px;
+  }
+  &__content {
+
+  }
+  &__pane {
+    display: none;
+  }
+  &__pane--active {
+    display: block;
+  }
+}

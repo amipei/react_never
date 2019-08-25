@@ -1,0 +1,26 @@
+@import "../style/layout";
+$prefix: details-list;
+
+.#{$prefix} {
+  @include global-padding;
+
+  &__wrap {
+    display: flex;
+    padding: 8px 0;
+  }
+  &__title {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+  }
+  &__subtitle, &__other {
+    color: #878787;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+  }
+  &__info {
+    margin-left: 16px;
+  }
+
+}

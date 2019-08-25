@@ -1,0 +1,26 @@
+$prefix: search-bar;
+
+.#{$prefix} {
+  display: flex;
+  align-items: center;
+  height: 56px;
+  padding: 16px;
+  //box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2), 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12);
+
+  // ransition: box-shadow .2s linear,-webkit-box-shadow .2s linear;
+  &__left {
+    margin-left: -12px;
+  }
+
+  &__input {
+    flex-grow: 1;
+    width: 100%;
+    margin-left: 20px;
+    font-size: 20px;
+  }
+
+  &__x {
+    margin-left: auto;
+    margin-right: -12px;
+  }
+}

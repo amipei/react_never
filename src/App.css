@@ -10,7 +10,16 @@ a {
 body, h1, h2, h3, h4, p{
   margin: 0;
 }
-
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+input {
+  border: none;
+  outline: none;
+  padding: 0;
+}
 .icon {
   line-height: 0;
   margin-right: -12px;

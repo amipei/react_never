@@ -1,0 +1,35 @@
+@import "../style/layout.scss";
+$prefix: navbar;
+
+.#{$prefix} {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  background-color: white;
+  @include global-padding;
+  height: 56px;
+  &--active {
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2), 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12);
+    transition: box-shadow .2s linear, -webkit-box-shadow .2s linear;
+  }
+
+  &__left {
+    width: 56px;
+    flex: none;
+  }
+  &__middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    font-size: 18px;
+    white-space: nowrap;
+  }
+  &__right {
+    margin-left: auto;
+  }
+}
