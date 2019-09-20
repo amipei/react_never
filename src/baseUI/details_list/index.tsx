@@ -31,7 +31,7 @@ const DetailsList: React.FC<DetailsListProps> = (props) => {
     {/* 列表*/}
       <List dataSource={dataSource.books} renderItem={((item, i) => (
         <ListItem  key={item.isbn13 + i}>
-          <Link className={`${classPrefix}__wrap`} to={`/details/${item.isbn13}`}>
+          <Link className={`${classPrefix}__wrap`} to={`/react_never/details/${item.isbn13}`}>
             <ImgWrap style={style} src={item.images.small} alt={item.alt} />
             <div className={`${classPrefix}__info`}>
               <h3 className={`${classPrefix}__title`}>{item.title}</h3>

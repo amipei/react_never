@@ -16,12 +16,12 @@ const NewBook: React.FC = () => {
   return (
     <div className={classPrefix}>
       {status === Status.SUCCESS ? (
-        <Express to='/all/newBook'
+        <Express to='/react_never/all/newBook'
                  data={result.books}
                  title='新书速递'
                  renderItem={(item:any, i:any) => (
 									 <Link className={`${classPrefix}__item`}
-                         to={`/details/${item.isbn13}`}
+                         to={`/react_never/details/${item.isbn13}`}
                          key={item.isbn13 + i + 'nb'}>
 										 <div className={`${classPrefix}__img-wrap`}>
 											 <img className={`${classPrefix}__img`} src={`${item.image}?apikey=${apikey}`}/>

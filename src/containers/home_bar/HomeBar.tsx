@@ -10,7 +10,7 @@ const HomeBar: React.FC = () => {
       <NavBar leftContent={<IconWrap icon={<FiMenu/>} style={{marginLeft: '-12px'}}/>}
               leftOnClick={()=>toast("此功能开发中")}
               rightContent={
-                <Link to="/search">
+                <Link to="/react_never/search">
                   <IconWrap icon={<FiSearch/>} style={{marginRight: '-12px'}}/>
                 </Link>}
       >

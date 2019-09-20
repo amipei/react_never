@@ -30,10 +30,10 @@ export const input = (value: string) => {
     dispatch(changeValue(value))
 
     if (value.length === 0) {
-      dispatch(push('/search'))
+      dispatch(push('/react_never/search'))
       return
     }
-    dispatch(push('/search/q'))
+    dispatch(push('/react_never/search/q'))
     debounce(() => {
       dispatch(fetchSearchResult(value))
     }, 300)()
@@ -72,7 +72,7 @@ export const clickResultItem = (value: string) => {
     dispatch(changeValue(value))
     dispatch(addSearchLog(value))
     dispatch(fetchMatchSearchResult(value))
-    dispatch(push('/search/match'))
+    dispatch(push('/react_never/search/match'))
   }
 }
 

@@ -23,7 +23,7 @@ const SearchBar: React.FC<any> = (props:any) => {
   const classPrefix = "search-bar"
   return (
     <div className={`${classPrefix}`}>
-      <Link className={`${classPrefix}__left`} to="/home">
+      <Link className={`${classPrefix}__left`} to="/react_never/home">
         <IconWrap icon={<FiArrowLeft/>} />
       </Link>
       <input className={`${classPrefix}__input`}

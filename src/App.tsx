@@ -14,16 +14,16 @@ import './App.css'
 const App: React.FC = () => {
   return (
     <div className="App">
-      <Redirect from="/" to="/home" />
+      <Redirect from="/react_never" to="/react_never/home" />
       <Switch>
-        <Route path="/all/:type" component={All} />
-        <Route path="/details/:isbn" component={Details} />
-        <Route path="/search" component={Search} />
-        <Route path="/" render={routeProps => (
+        <Route path="/react_never/all/:type" component={All} />
+        <Route path="/react_never/details/:isbn" component={Details} />
+        <Route path="/react_never/search" component={Search} />
+        <Route path="/react_never" render={routeProps => (
           <Tabs>
-            <TabPane path={'/home'} component={Home} tab={IndexTab} />
-            <TabPane path={'/find'} component={Find} tab={FinedTab}/>
-            <TabPane path={'/shelf'} component={Shlef} tab={ShelfTab} />
+            <TabPane path={'/react_never/home'} component={Home} tab={IndexTab} />
+            <TabPane path={'/react_never/find'} component={Find} tab={FinedTab}/>
+            <TabPane path={'/react_never/shelf'} component={Shlef} tab={ShelfTab} />
           </Tabs>
         )} />
       </Switch>

@@ -7,9 +7,9 @@ const Search: React.FC = (props:any) => {
     <div>
       <SearchBar />
       <Switch>
-        <Route exact path='/search/' component={SearchHistory} />
-        <Route exact path='/search/q' component={SearchList} />
-        <Route exact path='/search/match' component={SearchMatch}/>
+        <Route exact path='/react_never/search/' component={SearchHistory} />
+        <Route exact path='/react_never/search/q' component={SearchList} />
+        <Route exact path='/react_never/search/match' component={SearchMatch}/>
       </Switch>
     </div>
   )

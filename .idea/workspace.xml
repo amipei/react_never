@@ -2,73 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88952975-f090-42ca-9b8f-af1466805dae" name="Default Changelist" comment="提交">
-      <change afterPath="$PROJECT_DIR$/src/api/service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baseUI/bottom_load/bottom_load.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baseUI/bottom_load/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baseUI/icon_wrap/icon_wrap.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baseUI/icon_wrap/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baseUI/img_wrap/img_wrap.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baseUI/img_wrap/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baseUI/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baseUI/list/ListItem.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baseUI/list/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baseUI/list/list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baseUI/load_icon/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baseUI/load_icon/load_icon.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baseUI/style/layout.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baseUI/tag/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baseUI/tag/tag.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/hook.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/reduxHook.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/all/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/all/view/All.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/details/components/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/details/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/details/view/hook.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/home_bar/HomeBar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/search/components/search_match/SearchMatch.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/search/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/Find.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/Home.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/Shlef.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baseUI/dividers/Dividers.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/baseUI/dividers/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baseUI/express/Express.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/baseUI/express/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baseUI/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/baseUI/header/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/details/components/interest/Interest.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/details/components/interest/interest.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/details/components/summary/Summary.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/details/components/summary/summary.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/details/redux/actionTypes.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/details/redux/actions.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/details/redux/reducer.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/details/view/Details.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/details/view/details.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/new_book/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/new_book/redux/actionTypes.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/new_book/redux/actions.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/new_book/redux/reducer.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/new_book/test/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/new_book/test/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/new_book/test/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/new_book/test/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/new_book/test/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/new_book/test/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/new_book/test/test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/new_book/view/NewBook.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/new_book/view/NewBookHooks.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/new_book/view/NewBookItem.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/new_book/view/new_book.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/status.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/configureStore.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/configureStore.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/token.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -197,7 +131,8 @@
       <workItem from="1566376168507" duration="399000" />
       <workItem from="1566376596058" duration="2715000" />
       <workItem from="1566439642072" duration="72628000" />
-      <workItem from="1566715201532" duration="11491000" />
+      <workItem from="1566715201532" duration="13526000" />
+      <workItem from="1566785744015" duration="554000" />
     </task>
     <servers />
   </component>
